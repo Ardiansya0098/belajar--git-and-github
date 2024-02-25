@@ -77,6 +77,8 @@ Perintah `SHOW DATABASES;` digunakan untuk menampilkan daftar semua database yan
 
 ### hasil
 
+![[Tampilkan database.jpg]]
+
 ### analisis
 Perintah ini akan menghasilkan output yang berisi daftar semua basis data yang ada di server MySQL. Untuk menampilkan informasi lebih lanjut tentang sebuah basis data tertentu, Anda dapat menggunakan perintah SHOW  DATABASES nama_database;. Ini akan menampilkan pernyataan SQL yang digunakan untuk membuat basis data tersebut, termasuk karakter set dan kolasi yang digunakan
 
@@ -91,6 +93,8 @@ Perintah `DROP DATABASE xi_rpl_1;` digunakan untuk menghapus database dengan nam
 
 ### hasil
 
+![[hapus database.jpg]]
+
 ### analisis
 Di sini, x1_ adalah nama basis data yang ingin Anda hapus. Misalnya, jika Anda ingin menghapus basis data dengan nama "tokobuku", Anda akan menulis: DROP DATABASE;
 
@@ -103,6 +107,8 @@ kesimpulan dari proses menghapus database berserta format di MySQL adalah bahwa 
 `USE xi_rpl_1;`. Perintah ini digunakan untuk beralih konteks ke database "xi_rpl_1", sehingga semua perintah SQL yang dijalankan setelahnya akan berlaku untuk database tersebut.
 
 ### hasil
+
+![[Gunakan database.jpg]]
 
 ### analisis
 Perintah `USE DATABASE xi_rpl_1;` digunakan untuk beralih ke database "xi_rpl_1" sehingga semua perintah SQL yang dijalankan setelahnya akan berlaku untuk database tersebut. Ini memungkinkan Anda untuk bekerja dengan tabel, relasi, dan data yang tersimpan di dalam database "xi_rpl_1". Dengan beralih ke database tertentu, Anda dapat menjalankan query yang terkait dengan operasi pembacaan atau penulisan data ke dalam database tersebut, serta melakukan operasi lain seperti membuat tabel baru, menghapus data, dan mengubah struktur tabel.
