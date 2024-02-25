@@ -25,7 +25,7 @@ digunakan untuk membuat sebuah database baru dengan nama `xi_rpl_1`. Database te
 
 ## HASIL
 
-![[show_tbl.jpg.jpg]]
+
 
 ## ANALISIS
 
@@ -61,7 +61,7 @@ Perintah CREATE DATABASE xi_rpl_1; digunakan untuk membuat sebuah database baru 
 
 ### hasil
 
-![[buatdtbs.jpg.jpg]]
+![buat database](buatdtbs.jpg.jpg)
 
 ### analisis 
 Di sini, nama_database adalah nama yang Anda inginkan untuk basis data baru yang akan Anda buat. Misalnya, jika Anda ingin membuat basis data dengan nama "tokobuku", Anda akan menulis: CREATE DATABASE;
@@ -77,7 +77,7 @@ Perintah `SHOW DATABASES;` digunakan untuk menampilkan daftar semua database yan
 
 ### hasil
 
-![[Tampilkan database.jpg]]
+![tampilkan](Tampilkan_database.jpg)
 
 ### analisis
 Perintah ini akan menghasilkan output yang berisi daftar semua basis data yang ada di server MySQL. Untuk menampilkan informasi lebih lanjut tentang sebuah basis data tertentu, Anda dapat menggunakan perintah SHOW  DATABASES nama_database;. Ini akan menampilkan pernyataan SQL yang digunakan untuk membuat basis data tersebut, termasuk karakter set dan kolasi yang digunakan
@@ -93,7 +93,7 @@ Perintah `DROP DATABASE xi_rpl_1;` digunakan untuk menghapus database dengan nam
 
 ### hasil
 
-![[hapus database.jpg]]
+![hapus](hapus_database.jpg)
 
 ### analisis
 Di sini, x1_ adalah nama basis data yang ingin Anda hapus. Misalnya, jika Anda ingin menghapus basis data dengan nama "tokobuku", Anda akan menulis: DROP DATABASE;
@@ -108,7 +108,7 @@ kesimpulan dari proses menghapus database berserta format di MySQL adalah bahwa 
 
 ### hasil
 
-![[Gunakan database.jpg]]
+![Gunakan](Gunakan_database.jpg)
 
 ### analisis
 Perintah `USE DATABASE xi_rpl_1;` digunakan untuk beralih ke database "xi_rpl_1" sehingga semua perintah SQL yang dijalankan setelahnya akan berlaku untuk database tersebut. Ini memungkinkan Anda untuk bekerja dengan tabel, relasi, dan data yang tersimpan di dalam database "xi_rpl_1". Dengan beralih ke database tertentu, Anda dapat menjalankan query yang terkait dengan operasi pembacaan atau penulisan data ke dalam database tersebut, serta melakukan operasi lain seperti membuat tabel baru, menghapus data, dan mengubah struktur tabel.
@@ -172,7 +172,7 @@ CREATE TABLE karyawan (
 
 ### Hasil
 
-![[h_table1.jpeg.jpg]]
+![tabel karyawan](h_table1.jpeg.jpg)
 
 ### Analisis
 
@@ -242,7 +242,7 @@ values("1","ardiansya","ardi","085333405540");
 
 ### Hasil
 
-![[insert 1 data.jpg.jpg]]
+![insert 1 data](insert1_data.jpg)
 
 ### Analisis
 
@@ -295,7 +295,7 @@ values ("2","farhan","far","08431279465"),
 
 ### Hasil
 
-![[insert lebih besar 1.jpg.jpg]]
+![insert lebih besar 1](insert_lebih_besar1.jpg)
 
 ### Analisis 
 
@@ -342,7 +342,7 @@ insert into karyawan
 
 ### Hasil
 
-![[menyebut kolom.jpg.jpg]]
+![menyebut kolom](menyebut_kolom.jpg)
 
 ### Analisis
 
@@ -377,7 +377,7 @@ select * from karyawan;
 
 ### Hasil
 
-![[select.jpg.jpg]]
+![select seluruh data](seluruh_data.jpg)
 
 ### Analisis 
 
@@ -402,7 +402,7 @@ select nama_asli from karyawan;
 
 ### Hasil
 
-![[data kolom.jpg.jpg]]
+![data kolom](data_kolom.jpg)
 
 ### Analisis 
 
@@ -433,7 +433,7 @@ select * from karyawan
 
 ### Hasil
 
-![[klausa where.jpg.jpg]]
+![klausa where](klausa_where.jpg)
 
 ### Analisis 
 
@@ -464,7 +464,7 @@ update karyawan set no_telp="086451334044" where nis_karyawan="4";
 
 ## Hasil
 
-![[update baris.jpg.jpg]]
+![update baris](update_baris.jpg)
 
 ## Analisis 
 
@@ -493,7 +493,7 @@ DELETE FROM karyawan WHERE nis_karyawan="3";
 
 ## Hasil
 
-![[delete nama tabel.jpg.jpg]]
+![delete nama tabel](delete_nama_tabel.jpg)
 
 ## Analisis
 
@@ -525,7 +525,7 @@ drop table pelanggan;
 
 ## Hasil
 
-![[hapus table hs.jpg.jpg]]
+![hapus table](hapus_tabel.jpg)
 
 ## Analisis 
 

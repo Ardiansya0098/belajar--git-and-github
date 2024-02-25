@@ -13,7 +13,7 @@ select warna,pemilik from desc_mobil where warna="Hitam" and pemilik="Ibrahim";
 
 ## Hasil
 
-![[And.jpg]]
+![And.](And.jpg)
 
 ## Analisis 
 
