@@ -21,10 +21,15 @@ Perintah `mysql -u root` digunakan untuk masuk ke client MySQL dengan menggunaka
 
 ## HASIL
 
-![[mysql_-u_root.jpg]]
+![mysql -u root](mysql_-u_root.jpg)
 
 ## ANALISIS
 
+Perintah mysql -u root digunakan untuk mengakses server MySQL menggunakan akun pengguna "root" dari baris perintah (command line). Analisis dari perintah ini akan tergantung pada apa yang ingin Anda ketahui atau lakukan setelah masuk ke dalam server MySQL dengan akun "root".
+
+## Kesimpulan 
+
+Perintah "mysql -u root" digunakan untuk masuk ke dalam server database MySQL menggunakan pengguna (user) "root". Dengan demikian, Anda akan dapat mengakses dan mengelola database MySQL menggunakan hak akses penuh yang dimiliki oleh pengguna root.
 
 # Insert
 ## Insert 1 Data
